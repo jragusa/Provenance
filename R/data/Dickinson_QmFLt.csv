@@ -1,0 +1,48 @@
+#############################################,,,
+# Title : Dickinson QmFLt,,,
+# Description : data for creation of provinces of the Dickinson QmFLt ternary diagram using Ternary.R and ggtern package,,,
+# Date : 25/11/2014,,,
+# Author : Jérémy Ragusa,,,
+#############################################,,,
+# Comment :,,,
+# Values reported from Dickinson et al.(1983) using WebPlotDigitizer (http://arohatgi.info/WebPlotDigitizer/beta/) for complementary data,,,
+#############################################,,,
+F,Lt,Qm,Label
+0,0,100,Craton Interior
+20,0,80,Craton Interior
+12.816,12.676,74.508,Craton Interior
+0,11,89,Craton Interior
+20,0,80,Transitional Continental
+43,0,57,Transitional Continental
+34.917,16.112,48.971,Transitional Continental
+12.816,12.676,74.508,Transitional Continental
+43,0,57,Basement Uplift
+100,0,0,Basement Uplift
+77,23,0,Basement Uplift
+34.917,16.112,48.971,Basement Uplift
+47,53,0,Undissected Arc
+13,87,0,Undissected Arc
+14.099,73.137,12.765,Undissected Arc
+47,53,0,Transitional Arc
+14.099,73.137,12.765,Transitional Arc
+15.798,54.751,29.45,Transitional Arc
+58.386,19.674,21.94,Transitional Arc
+77,23,0,Transitional Arc
+58.386,19.674,21.94,Dissected Arc
+15.798,54.751,29.45,Dissected Arc
+34.917,16.112,48.971,Dissected Arc
+19.248,13.663,67.089,Mixed
+15.798,54.751,29.45,Mixed
+34.917,16.112,48.971,Mixed
+19.248,13.663,67.089,Quatzose Recycled
+17.514,33.098,49.388,Quatzose Recycled
+0,42,58,Quatzose Recycled
+0,11,89,Quatzose Recycled
+0,42,58,Transitional Recycled
+17.514,33.098,49.388,Transitional Recycled
+14.855,63.849,21.296,Transitional Recycled
+0,71,29,Transitional Recycled
+14.855,63.849,21.296,Lithic Recycled
+13,87,0,Lithic Recycled
+0,100,0,Lithic Recycled
+0,71,29,Lithic Recycled

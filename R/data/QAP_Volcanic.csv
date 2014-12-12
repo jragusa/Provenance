@@ -1,0 +1,66 @@
+#############################################,,,
+# Title : classification of volcanic rocks (feldspathoids excluded),,,
+# Description : data for creation of volcanic rocks classification domains using Ternary.R and ggtern package,,,
+# Date : 25/11/2014,,,
+# Author : Jérémy Ragusa,,,
+#############################################,,,
+# Comment :,,,
+# Values reported using WebPlotDigitizer (http://arohatgi.info/WebPlotDigitizer/beta/) for complementary ,,,
+#############################################,,,
+Q,A,P,Label
+60,40,0,Alkali-rhyolite
+20,80,0,Alkali-rhyolite
+20,72,8,Alkali-rhyolite
+60,36,4,Alkali-rhyolite
+60,36,4,Rhyolite
+20,72,8,Rhyolite
+20,52.125,27.875,Rhyolite
+60,26,14,Rhyolite
+60,26,14,Rhyo-dacite
+20,52.125,27.875,Rhyo-dacite
+20,27.875,52.125,Rhyo-dacite
+60,14,26,Rhyo-dacite
+60,14,26,Dacite
+20,27.875,52.125,Dacite
+20,8,72,Dacite
+60,4,36,Dacite
+60,4,36,Quartz andesite
+5,9.5,84.5,Quartz andesite
+5,0,95,Quartz andesite
+60,0,40,Quartz andesite
+20,80,0,Alkali quartz trachyte
+5,95,0,Alkali quartz trachyte
+5,84.5,9.5,Alkali quartz trachyte
+20,72,8,Alkali quartz trachyte
+20,72,8,Quartz trachyte
+5,84.5,9.5,Quartz trachyte
+5,61.75,33.25,Quartz trachyte
+20,52.125,27.875,Quartz trachyte
+20,52.125,27.875,Quartz latite
+5,61.75,33.25,Quartz latite
+5,33.25,61.75,Quartz latite
+20,27.875,52.125,Quartz latite
+20,27.875,52.125,Andesite
+5,33.25,61.75,Andesite
+5,9.5,84.5,Andesite
+20,8,72,Andesite
+5,95,0,Alkali-trachyte
+0,100,0,Alkali-trachyte
+0,90,10,Alkali-trachyte
+5,84.5,9.5,Alkali-trachyte
+5,84.5,9.5,Trachyte
+0,90,10,Trachyte
+0,65,35,Trachyte
+5,61.75,33.25,Trachyte
+5,61.75,33.25,Latite
+0,65,35,Latite
+0,35,65,Latite
+5,33.25,61.75,Latite
+5,33.25,61.75,Latite / basalt
+0,35,65,Latite / basalt
+0,10,90,Latite / basalt
+5,9.5,84.5,Latite / basalt
+5,9.5,84.5,Basalt
+0,10,90,Basalt
+0,0,100,Basalt
+5,0,95,Basalt
