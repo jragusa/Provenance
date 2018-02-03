@@ -1,0 +1,21 @@
+x1,y1,x2,y2,line,source
+0.5,-0.4,.75,0,1a,pettijohn1972
+.75,0,.79,.25,1b,pettijohn1972
+.79,.25,1,.5,1c,pettijohn1972
+.6,-0.5,.75,-0.25,2a,pettijohn1972
+.75,-0.25,1.025,-0.215,2b,pettijohn1972
+1.1,-0.75,1,-0.55,3a,pettijohn1972
+1,-0.55,1.05,0,3b,pettijohn1972
+1.05,0,1.2,0.37,3c,pettijohn1972
+1.3,-1,1.25,-0.5,4a,pettijohn1972
+1.25,-0.5,1.5,0.215,4b,pettijohn1972
+1.677,-1,1.65,-0.5,5a,pettijohn1972
+1.65,-0.5,1.75,-0.25,5b,pettijohn1972
+1.75,-0.25,1.9,0,5c,pettijohn1972
+1.6,-1,1.8,1.5,quartzarenite,herron1988
+1.72,.6,0,.6,ferruginous,herron1988
+.71,.6,.71,1.5,Fe sand,herron1988
+.55,-0.1,.71,.6,shale,herron1988
+.643,-0.5,.89,.6,wacke,herron1988
+.7605,.05,1.68,.05,feldspathic,herron1988
+1.0,-1,1.14,.6,subarkose,herron1988

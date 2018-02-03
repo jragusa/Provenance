@@ -1,15 +1,34 @@
 # R scripts
 
-Collection of R scripts usefull for provenance analysis and others geological research. It comprises :
+Collection of dataset and R scripts usefull for provenance analysis and others geological researchs.
 
-## ternary.R
+## Datasets for classification and discrimination diagrams
+Create geological fields in ternary diagrams with `ggplot` or `ggtern` package for R. Binary and ternary plots are extensively used to classify rocks and sediments or identify tectonic settings of the detrital source area. References are indicated in the preambule. The following datasets are available:
++ **SandstonesTernary**: mainly based on framework composition, the dataset provides a collection of ternary diagram for sandstone classification. Most of them were created between the 1950's and 1970's years.
++ **SandstonesBiplot**: biplot diagrams involve major and trace elements concentrations.
++ **ProvenanceTernary**: corresponds to the Dickinson ternary diagram identifying the tectonic settings of the detrital source (QFL and QmFLt diagrams).
++ **ProvenanceBiplot**: source rocks are identified applying a discriminant function on major elements concentration.
++ **MagmaticBiplot** and **MagmaticTernary** provide a collection of classification diagrams for felsic to ultramafic rocks based on framework composition or major elements.
++ **MineralTernary**: comprises a serie of discrimination diagram for dedicated mineral phases including garnet, pyroxene.
 
-Create geological fields in ternary diagrams using [ggtern](http://www.ggtern.com/) package for R. The function needs to specify the end-members of the diagram and the dataset used. Two variants are available: draw lines or surface. The latter is usefull to colorize fields or put centered field name. Do not forget to use quotes for the different variables. dataset comprises:
-+ Sandstones classification: *Folk* (Folk, 1970) and *McBride* (McBride, 1963)
-+ Dickinson model: *QFL* and *QmFLt* (Dickinson & al., 1979, 1983)
-+ Crystalline rocks classification: *QAP* (felsic rocks), *Ultramafic* (peridotite and pyroxenites rocks)
-+ Single grains: *Garnet* (Morton, 1989) and *Pyroxene*
+Integration of fields can be basically done as following for `ggplot`:
+```
+MagmaticBiplot <- read.csv("path/to/MagmaticBiplot.csv", header = TRUE, comment.char = "#", dec = ".")
+
+ggplot() +
+   geom_line(data=subset(MagmaticBiplot, reference=="LeBas1986"), aes(x, y, group=line)) +
+   geom_line(data=df, aes(SiO2, Na2O+K2O))
+```
+and for `ggtern`:
+```
+ProvenanceTernary <- read.csv("path/to/ProvenanceTernary.csv", header = TRUE, comment.char = "#", dec = ".")
+
+ggtern() +
+   geom_line(data=subset(ProvenanceTernary, type=="QmFLt"), aes(x, y, z, group=line)) +
+   geom_line(data=df, aes(F, Qm, Lt))
+```
+## Todo
++ feldspar ternary
 
 ## GeoJSON.R
-
 Convert outcrops location in .csv file to GeoJSON file to display geographical datasets on geo-referenced maps (Mapbox). Script from Oscar Perpiñan Lamigueiro (http://procomun.wordpress.com/2013/09/20/r-geojson-and-github/).
