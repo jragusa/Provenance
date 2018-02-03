@@ -13,17 +13,16 @@ Create geological fields in ternary diagrams with `ggplot` or `ggtern` package f
 
 Integration of fields can be basically done as following for `ggplot`:
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
 MagmaticBiplot <- read.csv("path/to/MagmaticBiplot.csv", header = TRUE, comment.char = "#", dec = ".")
 
-=======
 ggplot() +
    geom_line(data=subset(MagmaticBiplot, reference=="LeBas1986"), aes(x, y, group=line)) +
    geom_line(data=df, aes(SiO2, Na2O+K2O))
 ```
 and for `ggtern`:
 ```
+ProvenanceTernary <- read.csv("path/to/ProvenanceTernary.csv", header = TRUE, comment.char = "#", dec = ".")
+
 ggtern() +
    geom_line(data=subset(ProvenanceTernary, type=="QmFLt"), aes(x, y, z, group=line)) +
    geom_line(data=df, aes(F, Qm, Lt))
