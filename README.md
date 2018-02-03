@@ -14,22 +14,8 @@ Create geological fields in ternary diagrams with `ggplot` or `ggtern` package f
 Integration of fields can be basically done as following for `ggplot`:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 MagmaticBiplot <- read.csv("path/to/MagmaticBiplot.csv", header = TRUE, comment.char = "#", dec = ".")
-
-ggplot() +
-   geom_line(data=subset(MagmaticBiplot, reference=="LeBas1986"), aes(x, y, group=line)) +
-   geom_line(data=df, aes(SiO2, Na2O+K2O))
-```
-and for `ggtern`:
-```
-ProvenanceTernary <- read.csv("path/to/ProvenanceTernary.csv", header = TRUE, comment.char = "#", dec = ".")
-
-ggtern() +
-   geom_line(data=subset(ProvenanceTernary, type=="QmFLt"), aes(x, y, z, group=line)) +
-   geom_line(data=df, aes(F, Qm, Lt))
-```
-## Todo
-+ feldspar ternary
 
 =======
 ggplot() +
@@ -45,6 +31,47 @@ ggtern() +
 ## Todo
 + feldspar ternary
 
+=======
+MagmaticBiplot <- read.csv("path/to/MagmaticBiplot.csv", header = TRUE, comment.char = "#", dec = ".")
+
+>>>>>>> 7330bb8a15e2cbc211776dc6d972b2147d46de2f
+ggplot() +
+   geom_line(data=subset(MagmaticBiplot, reference=="LeBas1986"), aes(x, y, group=line)) +
+   geom_line(data=df, aes(SiO2, Na2O+K2O))
+```
+and for `ggtern`:
+```
+ProvenanceTernary <- read.csv("path/to/ProvenanceTernary.csv", header = TRUE, comment.char = "#", dec = ".")
+<<<<<<< HEAD
+
+ggtern() +
+   geom_line(data=subset(ProvenanceTernary, type=="QmFLt"), aes(x, y, z, group=line)) +
+   geom_line(data=df, aes(F, Qm, Lt))
+```
+## Todo
++ feldspar ternary
+
+=======
+ggplot() +
+   geom_line(data=subset(MagmaticBiplot, reference=="LeBas1986"), aes(x, y, group=line)) +
+   geom_line(data=df, aes(SiO2, Na2O+K2O))
+```
+and for `ggtern`:
+```
+=======
+
+>>>>>>> 7330bb8a15e2cbc211776dc6d972b2147d46de2f
+ggtern() +
+   geom_line(data=subset(ProvenanceTernary, type=="QmFLt"), aes(x, y, z, group=line)) +
+   geom_line(data=df, aes(F, Qm, Lt))
+```
+## Todo
++ feldspar ternary
+
+<<<<<<< HEAD
 >>>>>>> 8f36802f2344170140784116ba7440a926dcb27e
+=======
+>>>>>>> update repo
+>>>>>>> 7330bb8a15e2cbc211776dc6d972b2147d46de2f
 ## GeoJSON.R
 Convert outcrops location in .csv file to GeoJSON file to display geographical datasets on geo-referenced maps (Mapbox). Script from Oscar Perpiñan Lamigueiro (http://procomun.wordpress.com/2013/09/20/r-geojson-and-github/).
