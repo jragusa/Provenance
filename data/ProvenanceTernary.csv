@@ -1,0 +1,47 @@
+#############################################,,,,
+# Title : Lines for ternary diagram domains,,,,
+# Description : dataset for various geological classification domains in ternary diagram using ggtern package,,,,
+# Date : 2016/01/18,,,,
+# Author : Jérémy Ragusa,,,,
+#############################################,,,,
+# References :,,,,
+# QFL: Dickinson model from Dickinson & al. (1983),,,,
+# QmFLt: Dickinson model from Dickinson & al. (1983),,,,
+# Folk: Sanstones classification from Folk (1970),,,,
+# McBride: Sanstones classification from McBride (1963),,,,
+# garnet: Garnet classification from Morton (1989),,,,
+# pyroxene: Pyroxene classification from unknown,,,,
+# QAP: igneous & volcanic rocks classification,,,,
+# ultramafic: ultramafic (peridotite + pyroxenite) rocks classification,,,,
+#############################################,,,,
+# Comments: ,,,,
+# Values are reported form references or using WebPlotDigitizer (http://arohatgi.info/WebPlotDigitizer/beta/),,,,
+# x = left corner y = top corner z = right corner,,,,
+#############################################,,,,
+x,y,z,line,type
+0,97,3,1,QFL
+85,0,15,1,QFL
+45,55,0,2,QFL
+0,25,75,2,QFL
+18,82,0,3,QFL
+15.293,79.617,5.089,3,QFL
+69.443,17.674,12.883,4,QFL
+12.832, 33.377, 53.791,4,QFL
+50,0,50,5,QFL
+0,25,75,5,QFL
+0,89,11,1,QmFLt
+77,0,23,1,QmFLt
+19.248,67.089,13.663,2,QmFLt
+13,0,87,2,QmFLt
+20,80,0,3,QmFLt
+12.816,74.508,12.676,3,QmFLt
+43,57,0,4,QmFLt
+15.798,29.45,54.751,4,QmFLt
+15.798,29.45,54.751,5,QmFLt
+58.386,21.94,19.674,5,QmFLt
+14.099,12.765,73.137,6,QmFLt
+47,0,53,6,QmFLt
+14.855,21.296,63.849,7,QmFLt
+0,29,71,7,QmFLt
+17.514,49.388,33.098,8,QmFLt
+0,58,42,8,QmFLt

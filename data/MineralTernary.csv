@@ -1,0 +1,45 @@
+#############################################,,,,
+# Title : Lines for ternary diagram domains,,,,
+# Description : dataset for various geological classification domains in ternary diagram using ggtern package,,,,
+# Date : 2016/01/18,,,,
+# Author : Jérémy Ragusa,,,,
+#############################################,,,,
+# References :,,,,
+# QFL: Dickinson model from Dickinson & al. (1983),,,,
+# QmFLt: Dickinson model from Dickinson & al. (1983),,,,
+# Folk: Sanstones classification from Folk (1970),,,,
+# McBride: Sanstones classification from McBride (1963),,,,
+# garnet: Garnet classification from Morton (1989),,,,
+# pyroxene: Pyroxene classification from unknown,,,,
+# QAP: igneous & volcanic rocks classification,,,,
+# ultramafic: ultramafic (peridotite + pyroxenite) rocks classification,,,,
+#############################################,,,,
+# Comments: ,,,,
+# Values are reported form references or using WebPlotDigitizer (http://arohatgi.info/WebPlotDigitizer/beta/),,,,
+# x = left corner y = top corner z = right corner,,,,
+#############################################,,,,
+x,y,z,line,type
+0,10.5,89.5,H1,Garnet
+64.75,10.5,24.75,H1,Garnet
+69,20,11,H1,Garnet
+80,20,0,H1,Garnet
+49.5,39.5,11,H2,Garnet
+0,39.5,60.5,H2,Garnet
+45,0,55,V1,Garnet
+39.75,10.5,49.75,V1,Garnet
+89,0,11,V2,Garnet
+69,20,11,V2,Garnet
+40,49,11,V2,Garnet
+29,71,0,V2,Garnet
+0,5,95,H1,Pyroxene
+95,5,0,H1,Pyroxene
+0,20,80,H2,Pyroxene
+80,20,0,H2,Pyroxene
+0,45,55,H3,Pyroxene
+55,45,0,H3,Pyroxene
+50,50,0,H4,Pyroxene
+0,50,50,H4,Pyroxene
+47.5,5,47.5,V1,Pyroxene
+50,0,50,V1,Pyroxene
+27.5,45,27.5,V2,Pyroxene
+25,50,25,V2,Pyroxene
